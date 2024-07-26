@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+* {
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    background-color: black;
+
+}
+
+body {
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+main {
+    margin: 4rem 8rem;
+}
+
+nav {
+    margin-bottom: 40px;
+}
+
+.navbanner {
+    background-color: linear-gradient(180.00deg, rgb(17, 17, 17), rgba(119, 119, 119, 0) 100%);
+}
+
+.nav_logo {
+    color: rgb(230, 83, 60);
+    font-size: 34px;
+    font-weight: 800;
+}
+
+.nav_align {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    gap: 30px;
+    padding: 0;
+    padding: 9px 3px;
+    padding-right: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 50px;
+}
+
+nav ul li {
+    list-style: none;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.responsive_btn {
+    display: none;
+}
+
+.special_link {
+    border-radius: 50px;
+    background-color: rgb(230, 83, 60);
+    padding: 9px 15px;
+}
+
+.special_word_banner {
+    font-family: "Dancing Script";
+}
+
+
+
+
+
+
+.banner_align {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20rem;
+}
+
+.banner_title {
+    font-size: 80px;
+    font-weight: 900;
+}
+
+.banner_description {
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.5);
+    margin: 30px 0;
+}
+
+.banner_btn_align {
+    display: flex;
+    justify-content: start;
+    gap: 10px;
+}
+
+.banner_btn {
+    color: white;
+    padding: 15px 40px;
+    border-radius: 50px;
+    font-weight: 800;
+}
+
+.banner_btn:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: all 100ms ease-in-out;
+}
+
+#special_btn_banner {
+    background-color: rgb(230, 83, 60);
+    border: 3px solid rgb(230, 83, 60);
+}
+
+#circle_nav {
+    font-size: 40px;
+    color: rgb(230, 83, 60);
+    background-color: rgba(48, 48, 48, 0);
+
+
+}
+
+
+.banner_image_position {
+    position: relative;
+}
+
+.video_tutorial_align {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: 12px;
+    padding: 14px 20px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    background-color: rgba(48, 48, 48, 0.54);
+}
+
+.subbanner_Div_two:hover {
+    transform: scale(1.05);
+    transition: all 100ms ease-in-out;
+    cursor: pointer;
+
+}
+
+.video_tutorial_position:hover {
+    transform: scale(1.05);
+    transition: all 100ms ease-in-out;
+    cursor: pointer;
+}
+
+.tutorial_div {
+    background-color: rgba(48, 48, 48, 0);
+
+}
+
+
+
+.video_tutorial_position {
+    position: absolute;
+    bottom: 70px;
+    left: -90px;
+    background-color: rgba(48, 48, 48, 0.54);
+    backdrop-filter: blur(4px);
+    border-radius: 12px;
+
+}
+
+.subbanner_Div_two {
+    padding: 14px 20px;
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    width: 37%;
+    position: absolute;
+    top: 150px;
+    left: 220px;
+    backdrop-filter: blur(0px);
+    background-color: rgba(48, 48, 48, 0.824);
+}
+
+.subbanner_Div_title {
+    font-size: 30px;
+    background-color: rgba(48, 48, 48, 0);
+}
+
+.subbanner_Div_description {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 13px;
+    backdrop-filter: blur(20px);
+    background-color: rgba(48, 48, 48, 0);
+
+}
+
+@media only screen and (max-width:576px) {
+    main {
+        margin: 20px;
+    }
+
+    nav ul {
+        display: none;
+    }
+
+    .responsive_btn {
+        display: block;
+        color: white;
+        border: none;
+        font-size: 30px;
+    }
+
+    .banner_title {
+        font-size: 35px;
+        margin-right: 20%;
+    }
+
+    .banner_description {
+        margin-right: 15%;
+    }
+
+    nav {
+        margin-bottom: 40px;
+    }
+
+    .banner_align {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .banner_btn_align {
+        justify-content: center;
+    }
+
+    .banner_btn {
+        padding: 15px 30px;
+        font-weight: 600;
+    }
+
+    .subbanner_Div_two {
+        top: 60px;
+        left: 190px;
+        width: 30%;
+    }
+
+    .video_tutorial_position {
+        bottom: 250px;
+        left: 10px;
+
+    }
+
+    .subbanner_Div_description {
+        font-size: 10px;
+    }
+
+}
