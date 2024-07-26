@@ -4,13 +4,14 @@
 * {
     margin: 0;
     font-family: "Inter", sans-serif;
-    background-color: black;
+
 
 }
 
 body {
     max-width: 1500px;
     margin: 0 auto;
+    background-color: black;
 }
 
 main {
@@ -106,6 +107,7 @@ nav ul li a {
     padding: 15px 40px;
     border-radius: 50px;
     font-weight: 800;
+    background-color: black;
 }
 
 .banner_btn:hover {
@@ -117,6 +119,11 @@ nav ul li a {
 #special_btn_banner {
     background-color: rgb(230, 83, 60);
     border: 3px solid rgb(230, 83, 60);
+    color: white;
+    padding: 15px 40px;
+    border-radius: 50px;
+    font-weight: 800;
+
 }
 
 #circle_nav {
@@ -236,7 +243,7 @@ nav ul li a {
     }
 
     .banner_btn {
-        padding: 15px 30px;
+        padding: 15px 20px;
         font-weight: 600;
     }
 
@@ -309,15 +316,210 @@ nav ul li a {
         margin: 20px 0 30px 0;
 
     }
-    .habit_section_Align{
+
+    .habit_section_Align {
         flex-direction: column;
     }
+
     .habit_each_title {
         font-size: 20px;
     }
-    .habit_each_description{
+
+    .habit_each_description {
         margin: 0 20px;
     }
 }
 
 /* habit section done */
+
+.run_extra_mile_margin {
+    margin-top: 150px;
+    border-radius: 18px;
+    background-color: rgb(34, 34, 34);
+}
+
+.extramile_right_side,
+.extramile_left_side {
+    flex-basis: 50%;
+}
+
+.run_extra_mile_align {
+    display: flex;
+    color: white;
+    align-items: center;
+    padding: 40px;
+
+
+}
+
+.extramile_left_side {
+    margin-right: 15rem;
+}
+
+.extramile_right_side {
+    text-align: end;
+}
+
+.extramile_img {
+    width: 100%;
+    border-radius: 18px;
+}
+
+.extramile_Description {
+    margin: 30px 0;
+    color: rgba(255, 255, 255, 0.5);
+
+}
+
+.extramile_title {
+    font-size: 55px;
+}
+
+.extramile_btn:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: all 100ms ease-in-out;
+}
+
+@media only screen and (max-width:576px) {
+    .extramile_left_side {
+        margin: 0;
+    }
+
+    .run_extra_mile_align {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .extramile_Description {
+        margin: 20px 0;
+
+    }
+
+    .extramile_title {
+        font-size: 23px;
+
+    }
+
+    .extramile_btn {
+        width: 100%;
+    }
+
+    .run_extra_mile_align {
+        padding: 30px;
+    }
+}
+
+/* extra mile section completed */
+
+.protein_section {
+    margin-top: 150px;
+    color: white;
+    text-align: center;
+}
+
+.protein_title {
+    font-size: 40px;
+}
+
+.protein_description {
+    color: rgba(255, 255, 255, 0.5);
+    margin: 0 20rem;
+    margin-top: 30px;
+}
+
+.products_align {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.each_product {
+    padding: 60px 30px;
+    position: relative;
+}
+
+
+
+.product_title {
+    margin: 20px;
+    font-size: 20px;
+}
+
+.product_title:hover {
+    color: rgb(230, 83, 60);
+    transition: all 300ms ease-in-out;
+}
+
+.each_product:hover .hover_btn {
+    display: block;
+    transition: all 300ms ease-in-out;
+}
+
+.each_product:hover .img_filter {
+    filter: brightness(50%);
+    transition: all 300ms ease-in-out;
+}
+
+.price {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.product_btn {
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    font-size: 17px;
+    font-weight: 600;
+    padding: 20px 20px;
+}
+
+.product_btn:hover {
+    cursor: pointer;
+}
+
+.hover_btn {
+    display: none;
+    position: absolute;
+    top: 250px;
+    right: 86px;
+    padding: 10px 20px;
+    background-color: rgb(230, 83, 60);
+    border: 1px solid rgb(230, 83, 60);
+    color: white;
+    font-size: 17px;
+    font-weight: +600;
+    border-radius: 8px;
+}
+
+.hover_btn:hover {
+    cursor: pointer;
+
+}
+
+@media only screen and (max-width:576px) {
+    .protein_description {
+        margin: 0;
+    }
+
+    .products_align {
+        flex-direction: column;
+    }
+
+    .each_product {
+        padding: 25px;
+    }
+
+    .protein_title {
+        font-size: 23px;
+    }
+
+    .protein_description {
+        margin: 20px 0;
+    }
+
+}
+
+/* challenging section done */
