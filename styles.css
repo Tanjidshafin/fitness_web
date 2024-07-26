@@ -257,3 +257,67 @@ nav ul li a {
     }
 
 }
+
+/* banner done */
+
+.habit_title {
+    text-align: center;
+    margin-top: 100px;
+    font-size: 50px;
+}
+
+.habit_description {
+    text-align: center;
+    margin: 0 20rem;
+    margin-top: 15px;
+    margin-bottom: 54px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.habit_section_Align {
+    display: flex;
+    gap: 20px;
+
+}
+
+.habit_each_img_align {
+    text-align: center;
+}
+
+.habit_each_img {
+    border-radius: 100%;
+    border: 2px solid rgba(255, 255, 255, 0.285);
+}
+
+.habit_each_title {
+    text-align: center;
+    margin: 15px 0;
+}
+
+.habit_each_description {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+@media only screen and (max-width:576px) {
+    .habit_title {
+        font-size: 30px;
+        margin: 0;
+    }
+
+    .habit_description {
+        margin: 20px 0 30px 0;
+
+    }
+    .habit_section_Align{
+        flex-direction: column;
+    }
+    .habit_each_title {
+        font-size: 20px;
+    }
+    .habit_each_description{
+        margin: 0 20px;
+    }
+}
+
+/* habit section done */
