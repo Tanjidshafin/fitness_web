@@ -305,6 +305,9 @@ nav ul li a {
     gap: 20px;
 
 }
+.change_your_habit_equal_align{
+    flex-basis: 25%;
+}
 
 .habit_each_img_align {
     text-align: center;
@@ -858,6 +861,7 @@ footer ul {
 
 hr {
     margin: 50px 0;
+    border: 2px solid rgba(255, 255, 255, 0.1);
 }
 
 .the_end {
