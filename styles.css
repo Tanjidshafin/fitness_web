@@ -116,6 +116,11 @@ nav ul li a {
     transition: all 100ms ease-in-out;
 }
 
+#Store_onway {
+    text-decoration: none;
+    border: 1px solid white;
+}
+
 #special_btn_banner {
     background-color: rgb(230, 83, 60);
     border: 3px solid rgb(230, 83, 60);
@@ -267,6 +272,14 @@ nav ul li a {
 
     .subbanner_Div_description {
         font-size: 10px;
+    }
+
+    .banner_btn_align {
+        flex-wrap: wrap;
+    }
+
+    #Store_onway {
+        padding: 20px 30px;
     }
 
 }
