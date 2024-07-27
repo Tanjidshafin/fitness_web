@@ -809,3 +809,89 @@ td {
 }
 
 /* meet our team done */
+footer {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 50px 10rem;
+}
+
+.footer_align {
+    display: flex;
+}
+
+.footer_dividation1 {
+    flex-basis: 50%;
+    margin-right: 10rem;
+}
+
+.footer_dividation {
+    flex-basis: 25%;
+}
+
+.footer_links_title {
+    color: white;
+    margin-bottom: 30px;
+}
+
+.footer_description {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.footer_title {
+    color: rgb(230, 83, 60);
+    font-size: 55px;
+    font-weight: 800;
+    margin-bottom: 30px
+}
+
+footer ul li {
+    list-style: none;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 20px;
+}
+
+footer ul {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+hr {
+    margin: 50px 0;
+}
+
+.the_end {
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+}
+
+@media only screen and (max-width:576px) {
+    .footer_align {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    footer {
+        padding: 20px;
+
+    }
+
+    .footer_dividation1 {
+        margin: 0;
+    }
+
+    .footer_links_title,
+    .footer_title {
+        margin-bottom: 15px;
+    }
+
+    .footer_links_title {
+        font-size: 25px;
+    }
+
+    .the_end {
+        text-align: start;
+    }
+}
+
+/* Task Complete */
