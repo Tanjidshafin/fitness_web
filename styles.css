@@ -279,7 +279,9 @@ nav ul li a {
     }
 
     #Store_onway {
-        padding: 20px 30px;
+        padding: 20px 24px;
+        width: 77%;
+        text-align: center;
     }
 
 }
@@ -642,6 +644,7 @@ td {
     background-color: rgba(255, 255, 255, 0.1);
     color: rgba(255, 255, 255, 0.6);
     border: 1px solid rgba(255, 255, 255, 0.1);
+    
 }
 
 .dropdown_design {
